@@ -1,4 +1,3 @@
-# thenextweb
+#A Responsive Replica of [The Next Web](https://thenextweb.com/) 
 
-Built by Samuel Cornet and Tolulope Olusola Oluwadamilare Olusakin:
- https://github.com/CornetS28/thenextweb.git
+Built by [Samuel Cornet]( https://github.com/CornetS28/) and [Tolulope Olusakin](github.com/oluwadamilareolusakin)
