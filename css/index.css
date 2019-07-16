@@ -139,12 +139,16 @@ i{
 .latest-news-container ul li{
     width: 40%;
     font-family: 'Cantarell', sans-serif;
-    font-size: .8em;
+    font-size: .7em;
     color: rgb(168, 168, 168);
 }
 
 [latest-news-header]{
-    color: brown;
+    color: rgb(209, 24, 24);
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    font-weight: 700px;
+    font-family: 'Roboto', sans-serif;
 }
 
 [latest-news-holder]{
@@ -155,7 +159,7 @@ i{
     width: 23%;
     float: left;
     margin-right: 2%;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 .latest-news-container h3{
@@ -164,50 +168,60 @@ i{
     margin: .6em 0 ;
 }
 
-[latest-news--first]{
+.latest-news-images{
     display: block;
     width: 100%;
     height: 152px;
+}
+
+[latest-news--first]{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/different-colored-lollipops-on-black-404x270.jpg');
 }
 
 [latest-news--second]{
-    display: block;
-    width: 100%;
-    height: 152px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/Japan-hacks-first-6-months-bitcoin-cryptocurrency-coincheck-scam-479x270.jpg');
 }
 
 [latest-news--third]{
-    display: block;
-    width: 100%;
-    height: 152px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/bulgaria-fraudsters-cryptocurrency-illegal-blockchain-theft-scam-hack-ponzi-480x270.jpg');
 }
 
 [latest-news--fourth]{
-    display: block;
-    width: 100%;
-    height: 152px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20230_primary_image_wide-540x270.jpg');
 }
 
 [latest-news--fifth]{
-    display: block;
-    width: 100%;
-    height: 152px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/pic-516x270.png');
 }
+
+[latest-news--sixth]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Saddo-Android-hed-513x270.jpg');
+}
+
+[latest-news--seventh]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/MeToo-2-516x270.png');
+}
+
+[latest-news--last]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-2-1-516x270.png');
+}
+
 @media only screen and (max-width: 800px){
     .hero{
         flex-flow: column nowrap;
