@@ -143,7 +143,7 @@ i{
     color: rgb(168, 168, 168);
 }
 
-[latest-news-header]{
+.section-header{
     color: rgb(209, 24, 24);
     margin-bottom: 1em;
     font-size: 1.5em;
@@ -233,10 +233,11 @@ i{
     [hero-right]{
         width: 40%;
         height: 100%;   
-        padding: 0 1em;
+        padding: 0 .1em;
     }
     [hero-left], [hero-right]{
         width: 100%;
+        
     }
 
     [hero-right]{
@@ -281,4 +282,14 @@ i{
         margin-left: 1em;
     }
 
+}
+
+/* For Samuel's section*/
+
+.latest{
+	font-family: 'Cantarell', sans-serif;
+}
+
+.latest a{
+    font-size: .9em;
 }

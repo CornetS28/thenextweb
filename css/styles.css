@@ -1,6 +1,5 @@
 body {
-	font: 12px verdana, sans-serif;
-	color: #666;
+
 	margin: 0;
 }
 * {
@@ -120,20 +119,9 @@ a.second-nav-links:hover {
 }
 
 /*....... Section: lastes Deals .............*/
-.latest {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 10px;
-}
 
-.deals-title {
-	color: #ff3300;
-    font-size: 200%;
-    letter-spacing: -.015em;
-    font-weight: bold;
-    font-family:Arial Narrow Bold;
-    margin-bottom: 30px;
-   
+.latest{
+	font-family: 'Cantarell', sans-serif;
 }
 .dealPrices small {
     text-decoration: line-through; 
