@@ -16,7 +16,7 @@ p, h2, h3, h4, h5{
 }
 
 main{
-    padding: 1em;
+    padding: .5em;
 }
 
 .flex-row{
@@ -87,16 +87,16 @@ main{
 }
 
 .right-overlay{
-    background-image: linear-gradient(150deg, rgba(230, 230, 230, 0.7), rgba(0, 0, 0,.7));
+    background-image: linear-gradient(150deg, rgba(14, 14, 14, 0.4), rgba(0, 0, 0,.7));
 }
 
 .left-overlay{
-    background-image: linear-gradient(165deg,rgba(255, 34, 34, .8),rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+    background-image: linear-gradient(150deg,rgba(255, 34, 34, .7), rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
 }
 
 .article-title--controls{
     position: absolute;
-    bottom: 1em;
+    bottom: 1.4em;
     padding: 0 1em;
 }
 
@@ -116,4 +116,52 @@ main{
 
 .text-icon-pair{
     margin-left: .7em;
+}
+
+i{
+    margin-right: .3em;
+}
+
+[latest-news-section] ul:first-child{
+    list-style-type: none;
+}
+
+[latest-news-section] a{
+    color: black;
+    text-decoration: none;
+}
+
+[latest-news-section] li{
+    width: 8%;
+}
+@media only screen and (max-width: 800px){
+    .hero{
+        flex-flow: column nowrap;
+    }
+
+    [hero-left], [hero-right]{
+        width: 100%;
+    }
+
+    [hero-right]{
+        margin-top: .5em;
+    }
+
+    [hero-left]{
+        height: 50%;
+    }
+
+    [hero-left] h1{
+        font-size: 1.3em;
+    }
+
+    [article-date]{
+        display: none;
+    }
+
+    .article-title--controls{
+        position: absolute;
+        bottom: .8em;
+        padding: 0 1em;
+    }
 }
