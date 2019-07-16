@@ -120,9 +120,6 @@ a.second-nav-links:hover {
 
 /*....... Section: lastes Deals .............*/
 
-.latest{
-	font-family: 'Cantarell', sans-serif;
-}
 .dealPrices small {
     text-decoration: line-through; 
 }

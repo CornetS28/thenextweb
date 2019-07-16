@@ -222,7 +222,20 @@ i{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-2-1-516x270.png');
 }
 
+.latest-funding-container{
+    width: 23%;
+    background-color: aqua;
+    margin-right: 2%;
+    float: left;
+}
 
+.latest-funding-card--top{
+    background-color: #f42;
+}
+
+.latest-funding-card--amount{
+    background-color: rgb(255, 224, 218);
+}
 
 @media only screen and (max-width: 800px){
 
@@ -287,7 +300,8 @@ i{
 /* For Samuel's section*/
 
 .latest{
-	font-family: 'Cantarell', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    clear: both;
 }
 
 .latest a{
