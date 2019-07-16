@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+a{
+    cursor: pointer;
+}
+
 h1{
     font-family: 'Archivo Black', sans-serif;
 }
@@ -29,6 +33,16 @@ main{
 .flex-column{
     display: flex;
     flex-flow: column nowrap;
+}
+
+.full-width-height--link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .hero{
@@ -131,6 +145,10 @@ i{
     list-style-type: none;
 }
 
+[latest-news-section]{
+    margin-bottom: 30em;
+}
+
 [latest-news-section] a{
     color: black;
     text-decoration: none;
@@ -222,8 +240,101 @@ i{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-2-1-516x270.png');
 }
 
+[latest-funding-section]{
+    margin-top: 10em;
+}
 
+.red-links{
+    padding-right: 1em;
+    margin-right: .8em;
+    font-family: 'Cantarell', sans-serif;
+    color: #f42;
+    font-weight: 600;
+}
 
+.red-links-with--border{
+    border-right: 1px solid #f42;
+}
+.section-header-left{
+    float: left;
+}
+
+.section-header-right{
+    float: right;
+}
+
+[funding-cards--holder]{
+    clear: both;
+}
+.latest-funding-container{
+    width: 23%;
+    background-color: rgb(255, 246, 245);
+    margin-right: 2%;
+    float: left;
+    position: relative;
+}
+
+.latest-funding-container img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.latest-funding-card--top{
+    background-color: #f42;
+    padding: .8em 0 .8em 5.5em;
+}
+
+.latest-funding-card--top a{
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.latest-funding-card--amount{
+    background-color: rgb(255, 239, 235);
+    padding: .5em 5.5em;
+}
+
+.latest-funding-card--amount h3{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1em;
+}
+
+.latest-funding-card--category, .latest-funding-card--news{
+    padding: 0 1em;
+}
+
+.funding-sub-category{
+    width: 100%;
+    align-items: center;
+    margin: 1em 0;
+}
+.latest-funding-container hr{
+    border: .7px solid rgb(255, 192, 192);
+}
+.funding-sub-category p{
+    font-size: .8em;
+    color: rgb(82, 82, 82);
+}
+
+.funding-sub-category i{
+    color: rgb(48, 48, 48);
+}
+
+.latest-funding-card--news{
+    padding: 1em 1em;
+}
+
+.latest-funding-card--news p{
+    font-size: .8em;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.latest-funding-card--news span{
+    color: rgb(83, 83, 83);
+}
 @media only screen and (max-width: 800px){
 
     .hero{
@@ -273,21 +384,53 @@ i{
 
 
     .latest-news-images{
-
-        width: 80px;
-        height: 80px;
+        background-position: center;
+        width: 100px;
+        height: 100px;
     }
 
     .latest-news-caption{
         margin-left: 1em;
     }
 
+    .latest-funding-container{
+        width: 100%;
+        background-color: rgb(255, 246, 245);
+        margin-right: 2%;
+        float: left;
+        position: relative;
+        margin-bottom: 1em;
+    }
+
+
+.section-header-left, .section-header-right{
+    clear: both;
+}
+
+.section-header-right{
+    flex-direction: column;
+    align-items: flex-start;
+    float: none;
+}
+
+[latest-funding-rounds--links]{
+    margin-bottom: 1em;
+}
+.red-links{
+    font-weight: 200;
+}
+
+.red-links-with--border{
+    border: none;
+}
+
 }
 
 /* For Samuel's section*/
 
 .latest{
-	font-family: 'Cantarell', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    clear: both;
 }
 
 .latest a{
