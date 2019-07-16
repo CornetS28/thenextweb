@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Cantarell|Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ p, h2, h3, h4, h5{
 }
 
 main{
-    padding: 1em;
+    padding: .5em;
 }
 
 .flex-row{
@@ -56,7 +57,7 @@ main{
 [hero-right]{
     width: 40%;
     height: 100%;   
-    padding: 0 1em;
+    padding: 0 0 0 1em;
 }
 
 .overlay{
@@ -87,23 +88,20 @@ main{
 }
 
 .right-overlay{
-    background-image: linear-gradient(150deg, rgba(230, 230, 230, 0.7), rgba(0, 0, 0,.7));
+    background-image: linear-gradient(150deg, rgba(14, 14, 14, 0.4), rgba(0, 0, 0,.7));
 }
 
 .left-overlay{
-    background-image: linear-gradient(135deg,rgba(255, 93, 93, 0.9),rgba(14, 14, 14, 0.7), rgba(22, 22, 22, 0.7));
+    background-image: linear-gradient(150deg,rgba(255, 34, 34, .7), rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
 }
 
 .article-title--controls{
     position: absolute;
-    bottom: 2em;
+    bottom: 1.4em;
     padding: 0 1em;
-
 }
 
 .article-caption--controls{
-    width: 70%;
-    justify-content: space-between;
     font-size: .8em;
 }
 
@@ -111,4 +109,176 @@ main{
 .article-title--controls h1{
     margin: .3em 0;
     font-size: 2.7em;
+}
+
+[hero-right] h1{
+    font-size: 1em;
+}
+
+.text-icon-pair{
+    margin-left: .7em;
+}
+
+i{
+    margin-right: .3em;
+}
+
+.padded-page-section{
+    padding: 5em 5.4em;
+}
+
+.latest-news-container ul :first-child{
+    list-style-type: none;
+}
+
+[latest-news-section] a{
+    color: black;
+    text-decoration: none;
+}
+
+.latest-news-container ul li{
+    margin-right: 2em;
+    font-family: 'Cantarell', sans-serif;
+    font-size: .7em;
+    color: rgb(168, 168, 168);
+}
+
+[latest-news-header]{
+    color: rgb(209, 24, 24);
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 700px;
+    font-family: 'Roboto', sans-serif;
+}
+
+[latest-news-holder]{
+    width: 100%;
+}
+
+.latest-news-container{
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2em;
+}
+
+.latest-news-container h3{
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    margin: .6em 0 ;
+}
+
+.latest-news-images{
+    display: block;
+    width: 100%;
+    height: 152px;
+}
+
+[latest-news--first]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/different-colored-lollipops-on-black-404x270.jpg');
+}
+
+[latest-news--second]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/Japan-hacks-first-6-months-bitcoin-cryptocurrency-coincheck-scam-479x270.jpg');
+}
+
+[latest-news--third]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/bulgaria-fraudsters-cryptocurrency-illegal-blockchain-theft-scam-hack-ponzi-480x270.jpg');
+}
+
+[latest-news--fourth]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20230_primary_image_wide-540x270.jpg');
+}
+
+[latest-news--fifth]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/pic-516x270.png');
+}
+
+[latest-news--sixth]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Saddo-Android-hed-513x270.jpg');
+}
+
+[latest-news--seventh]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/MeToo-2-516x270.png');
+}
+
+[latest-news--last]{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-2-1-516x270.png');
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .hero{
+        flex-flow: column nowrap;
+    }
+
+    [hero-right]{
+        width: 40%;
+        height: 100%;   
+        padding: 0 1em;
+    }
+    [hero-left], [hero-right]{
+        width: 100%;
+    }
+
+    [hero-right]{
+        margin-top: .5em;
+    }
+
+    [hero-left]{
+        height: 50%;
+    }
+
+    [hero-left] h1{
+        font-size: 1.3em;
+    }
+
+    [article-date]{
+        display: none;
+    }
+
+    .article-title--controls{
+        position: absolute;
+        bottom: .8em;
+        padding: 0 1em;
+    }
+
+    .padded-page-section{
+        padding: 1em 1em;
+    }
+    .latest-news-container{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+
+    .latest-news-images{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .latest-news-caption{
+        margin-left: 1em;
+    }
+
 }
