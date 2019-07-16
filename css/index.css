@@ -164,6 +164,15 @@ i{
     margin: .6em 0 ;
 }
 
+[latest-news--first]{
+    width: 100%;
+    height: 300px;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/different-colored-lollipops-on-black-404x270.jpg');
+}
+
+[latest-news--first]{
+    
+}
 
 @media only screen and (max-width: 800px){
     .hero{
