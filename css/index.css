@@ -67,6 +67,15 @@ main{
     position: relative;
 }
 
+.hero-left-logo{
+    z-index: 9;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 7em;
+    left: 1em;
+}
+
 .article-date{
     position: absolute;
     top: 1em;
@@ -505,6 +514,15 @@ i{
     .hero-right h1{
         font-size: 1.1em;
     }
+
+    .hero-left-logo{
+        z-index: 9;
+        width: 280px;
+        height: 280px;
+        position: relative;
+        bottom: 5em;
+        left: 1em;
+    }
    
 }
 @media only screen and (max-width: 1200px){
@@ -530,6 +548,9 @@ i{
     }
 }
 @media only screen and (max-width: 800px){
+    .hero-left-logo{
+        display: none;
+    }
     .padded-page-section{
         padding: 5em 0em;
     }
