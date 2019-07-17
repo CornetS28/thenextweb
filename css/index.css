@@ -141,7 +141,7 @@ i{
 }
 
 .padded-page-section{
-    padding: 5em 5.4em;
+    padding: 5em 5em;
 }
 
 .latest-news-container ul :first-child{
@@ -335,8 +335,169 @@ i{
 .latest-funding-card--news span{
     color: rgb(83, 83, 83);
 }
-@media only screen and (max-width: 800px){
 
+[ads-section]{
+    clear: both;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+
+.ad-container{
+    width: 33.3333333333333333333333%;
+    padding: 1em 1em;
+    box-sizing: border-box;
+}
+
+.ad-image{
+    height: 280px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: flex-end;
+    position: relative;
+    font-family: 'Cantarell', sans-serif;
+    padding: 1em 1em;
+}
+
+.ad-image-overlay{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(0deg, rgb(3, 3, 3), rgba(223, 223, 223, 0.055)); 
+    z-index: 1;
+}
+
+.ad-image h2{
+    font-size: 1.3em;
+}
+.ad-image h5, h2, ul{
+    z-index: 2;
+}
+
+.ad-image ul :first-child{
+    list-style-type: none;
+}
+
+.ad-image ul li{
+    font-size: .7em;
+    color: rgb(219, 219, 219);
+    margin-right: 25px;
+}
+
+[ad-image-one]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/FaceApp-hed-796x419.jpg')
+}
+[ad-image-two]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/header-image-chromecast-CHEAP-516x270.png')
+}
+
+[ad-image-three]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Elon-513x270.jpg')
+}
+
+[ad-image-four]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-796x417.png')
+}
+
+[ad-image-five]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/different-colored-lollipops-on-black-404x270.jpg')
+}
+
+[ad-image-six]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/alan-turing-alan-turing-bill-binary-code-hidden-bank-of-england-478x270.jpg')
+}
+
+[ad-image-seven]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Uplay-Plus-516x270.jpg')
+}
+
+[ad-image-eight]{
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Apex-Wraith-516x270.jpg')
+}
+
+.ad-container .ads-list{
+    padding: 1em 0em;
+    list-style-type: none;
+}
+
+.ads-list li{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    margin-bottom: 1em;
+    font-size: .9em;
+    color: rgb(100, 100, 100);
+    padding: .5em 0;
+}
+
+.ad-latest{
+    align-items: center;
+    margin: .3em 0 0 0;
+    padding-left: .7em;
+    color: #f42;
+    background-color: rgb(255, 239, 235);
+}
+
+.latest-image{
+    align-self: flex-end;
+    width: 90px;
+    height: 80px;
+}
+
+.ad-latest p{
+    font-size: .9em;
+}
+
+.ads-list li::before{
+    content: '\2022';
+    color: #f42;
+    padding-right: 1em;
+}
+
+@media only screen and (max-width: 1300px){
+    .ad-container{
+        padding: 1em .3em;
+    
+    }
+    .padded-page-section{
+        padding: 5em 0em;
+    }
+
+    .ad-image{
+        height: 290px;
+    }
+   
+}
+@media only screen and (max-width: 1200px){
+    .ad-container{
+        width: 50%;
+        padding: 1em 1em;
+        box-sizing: border-box;
+    
+    }
+    .padded-page-section{
+        padding: 5em 0em;
+    }
+    .latest-funding-container{
+        width:31.3333%;
+        background-color: rgb(255, 246, 245);
+        margin-right: 2%;
+        float: left;
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .hidden-funding--container{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .padded-page-section{
+        padding: 5em 0em;
+    }
     .hero{
         flex-flow: column nowrap;
     }
@@ -423,6 +584,14 @@ i{
 .red-links-with--border{
     border: none;
 }
+
+.ad-container{
+    width: 100%;
+    padding: 1em 0em;
+    box-sizing: border-box;
+
+}
+
 
 }
 
