@@ -178,74 +178,84 @@ small {
 
 
 /* footer starts here */
-.footer-bottom {
-	color: #ccc;
-	background-color: #000;
-	padding: 40px 10px;
-	text-align: center;
-	line-height: 1.5;
+
+footer {
+	background: #131313;
+	color: white; 
 }
-.footer-bottom span {
-	color: #fff;
-	font-weight: bold;
-	font-size: 110%;
-}
-.footer-middle {
-	background-color: #111;
-	color: #999;
-	padding: 30px 10px;
-}
-.footer-middle ul {
-	margin: 0;
-	padding: 10px 0;
-	list-style-type: none;
-	text-align: center;
-}
-.footer-middle li, .footer-middle li a {
-	display: inline-block;
-}
-.footer-middle ul:first-child a {
-	width: 32px;
-	height: 32px;
-	margin: 5px 10px;
-}
-.footer-middle ul:last-child a {
-	margin: 5px 10px;
-}
-.footer-middle ul:last-child a:hover {
-	color: #fff;
-}
-.footer-wrapper {
-	background-color: #111;
-}
-.footer-top {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 10px 10px 40px;
-	overflow: auto;
-}
-.column {
-	float: left;
-	width: 33%;
-	min-width: 250px;
-}
-.titles {
-	color: #999;
-	font-size: 120%;
-	margin: 30px 0 20px 0;
-}
-.footer-top ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-.footer-top li {
-	color: #777;
-}
-.footer-top li a {
-	color: #fff;
-	font-size: 130%;
-	display: inline-block;
-	line-height: 2;
-}
+	 footer a:hover {
+	   color: white;
+	  }
+	 footer h2 {
+	   color: #999;
+	   font-size: 18px;
+	   margin-bottom: 15px;
+	  }
+	 footer li {
+	   font-size: 14px;
+	   margin-top: 10px; 
+	 }
+	
+	 footer .social-media {
+	   text-align: center;
+	   width: 100%;
+	   margin-top: 90px;
+	  }
+	 footer .social-media ul {
+		 margin-bottom: 15px; 
+		 /* margin-top: 35px;  */
+	 }
+	   footer .social-media li {
+	 	display: inline-block;
+	 	margin-left: 5px;
+	 	margin-right: 5px; 
+	 }
+	 	@media screen and (max-width: 768px) {
+	 	  footer .social-media li {
+	 		margin: 0; } 
+	 	}
+	   footer .social-media h2 {
+	 	font-size: inherit; }
+	   footer .social-media .social-media-icons a {
+	 	display: inline-block;
+	 	background-color: #333;
+	 	border: 2px solid #333;
+	 	border-radius: 50%;
+	 	width: 40px;
+		 height: 40px;
+		 margin-top: 20px;
+	    }
+	 	footer .social-media .social-media-icons a:hover {
+	 	  background: none; 
+	 	}
+	   footer .social-media .social-icons i {
+	 	margin-bottom: -20px;
+	  }
+	 
+	  footer .copy .heart {
+		color: red; 
+		height: 45px;
+	}
+	 footer .copy {
+	   text-align: center;
+	   height: 97px;
+	   line-height: 97px;
+	   color: #aaa;
+	   font-size: 13px;
+	   background: black;
+	   padding-bottom: 50px; 
+	 }
+	   @media screen and (max-width: 768px) {
+	 	footer .copy {
+	 	  height: 122px;
+	 	  line-height: 16px;
+	 	  padding-top: 30px; 
+	 	
+	 	}
+	 	  footer .copy span {
+	 		display: block; 
+		} 
+	}
+	 
+  
 
