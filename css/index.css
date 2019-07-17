@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+nav{
+    font-family: 'Cantarell', sans-serif;
+    font-size: .8em;    
+}
+
 a{
     cursor: pointer;
 }
@@ -497,6 +502,9 @@ i{
     .ad-image{
         height: 290px;
     }
+    .hero-right h1{
+        font-size: 1.1em;
+    }
    
 }
 @media only screen and (max-width: 1200px){
@@ -550,6 +558,7 @@ i{
     .hero-left h1{
         font-size: 1.3em;
     }
+
 
     .article-date{
         display: none;
