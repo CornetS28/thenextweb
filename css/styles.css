@@ -181,7 +181,62 @@ small {
 
 
 /* footer starts here */
+.footer-bottom {
+	color: #ccc;
+	background-color: #000;
+	padding: 40px 10px;
+	text-align: center;
+	line-height: 1.5;
+}
+.footer-bottom span {
+	color: #fff;
+	font-weight: bold;
+	font-size: 110%;
+}
+.footer-middle {
+	background-color: #111;
+	color: #999;
+	padding: 1em 0;
+	align-items: center;
+}
 
+.social-icons i{
+	margin-right: 1em;
+	background-color: rgb(83, 83, 83);
+	color: #ffffff;
+	border-radius: 50%;
+	padding: 1em 1em;
+	font-size: .9em;
+}
+
+ .footer-middle ul {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	list-style-type: none;
+
+}
+.footer-middle li, .footer-middle li a {
+	display: inline-block;
+} 
+.footer-middle ul:first-child a {
+	width: 32px;
+	height: 32px;
+	margin: 5px 10px;
+}
+.footer-middle ul:last-child a {
+	margin: 5px 10px;
+}
+.footer-middle ul:last-child a:hover {
+	color: #fff;
+}
+.footer-wrapper {
+	background-color: #111;
+}
+
+.footer-bottom .heart {
+	color: red; 
+} 
 footer {
 	background: #131313;
 	color: white; 
@@ -194,51 +249,11 @@ footer {
 	   font-size: 18px;
 	   margin-bottom: 15px;
 	  }
-	 footer li {
+	 footer li a {
 	   font-size: 14px;
 	   margin-top: 10px; 
 	 }
-	
-	 footer .social-media {
-	   text-align: center;
-	   width: 100%;
-	   margin-top: 90px;
-	  }
-	 footer .social-media ul {
-		 margin-bottom: 15px; 
-		 /* margin-top: 35px;  */
-	 }
-	   footer .social-media li {
-	 	display: inline-block;
-	 	margin-left: 5px;
-	 	margin-right: 5px; 
-	 }
-	 	@media screen and (max-width: 768px) {
-	 	  footer .social-media li {
-	 		margin: 0; } 
-	 	}
-	   footer .social-media h2 {
-	 	font-size: inherit; }
-	   footer .social-media .social-media-icons a {
-	 	display: inline-block;
-	 	background-color: black;
-	 	border: 2px solid black;
-	 	border-radius: 50%;
-	 	width: 40px;
-		 height: 40px;
-		 margin-top: 20px;
-	    }
-	 	footer .social-media .social-media-icons a:hover {
-	 	  background: none; 
-	 	}
-	   footer .social-media .social-icons i {
-	 	margin-bottom: -20px;
-	  }
-	 
-	  footer .copy .heart {
-		color: red; 
-		height: 45px;
-	}
+
 	 footer .copy {
 	   text-align: center;
 	   height: 97px;
@@ -248,6 +263,9 @@ footer {
 	   background: black;
 	   padding-bottom: 50px; 
 	 }
+	 .footer-middle li, .footer-middle li a {
+		display: inline-block;
+	}
 	   @media screen and (max-width: 768px) {
 	 	footer .copy {
 	 	  height: 122px;
@@ -263,29 +281,7 @@ footer {
   
 
 		@media screen and (max-width: 768px) {
-		  footer .social li {
-			margin: 0; } 
 		}
-	  footer .social h2 {
-		font-size: inherit; 
-	}
-	  footer .social .social-icons a {
-		display: inline-block;
-		background-color: black;
-		border: 2px solid black;
-		border-radius: 50%;
-		width: 40px;
-		height: 40px; 
-	  }
-
-		footer .social .social-icons a:hover {
-		  background: none; 
-		}
-
-	  footer .social .social-icons i {
-		margin-bottom: -20px; 
-		
-	   }
 	
 	  @media screen and (max-width: 768px) {
 		  footer  span {
