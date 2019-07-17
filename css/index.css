@@ -11,6 +11,8 @@ a{
 
 h1{
     font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+    z-index: 2;
 }
 
 p, h2, h3, h4, h5{
@@ -46,15 +48,15 @@ main{
 }
 
 .hero{
-    height: 500px;
     box-sizing: border-box;
+    height: 470px;
     color: white;
 }
 
 [hero-left]{
-    width: 69%;
+    width: 80%;
     height: 100%;
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/Japan-hacks-first-6-months-bitcoin-cryptocurrency-coincheck-scam-796x448.jpg');
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-796x417.png');
     background-repeat: no-repeat;
     background-size: cover; 
     position: relative;
@@ -71,7 +73,7 @@ main{
 [hero-right]{
     width: 40%;
     height: 100%;   
-    padding: 0 0 0 1em;
+    padding: 0 0 0 .5em;
 }
 
 .overlay{
@@ -85,7 +87,7 @@ main{
 [hero-right--first]{
     width: 100%;
     height: 50%;
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/bulgaria-fraudsters-cryptocurrency-illegal-blockchain-theft-scam-hack-ponzi-796x448.jpg');
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Elon-796x419.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -94,7 +96,7 @@ main{
 [hero-right--second]{
     width: 100%;
     height: 50%;
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/pic-796x417.png');
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Neuralink-Link-computer-hed-796x419.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -106,7 +108,8 @@ main{
 }
 
 .left-overlay{
-    background-image: linear-gradient(150deg,rgba(255, 34, 34, .7), rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9));
+    background: linear-gradient(170deg,rgba(252, 57, 90, 0.5),rgba(252,57,90, .6), rgba(43,43,43,.5), black) ;
+
 }
 
 .article-title--controls{
@@ -126,7 +129,7 @@ main{
 }
 
 [hero-right] h1{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .text-icon-pair{
@@ -146,7 +149,7 @@ i{
 }
 
 [latest-news-section]{
-    margin-bottom: 30em;
+    margin-bottom: 25em;
 }
 
 [latest-news-section] a{
@@ -240,9 +243,6 @@ i{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-2-1-516x270.png');
 }
 
-[latest-funding-section]{
-    margin-top: 10em;
-}
 
 .red-links{
     padding-right: 1em;
