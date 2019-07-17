@@ -1,6 +1,5 @@
 body {
-	font: 12px verdana, sans-serif;
-	color: #666;
+
 	margin: 0;
 }
 * {
@@ -37,44 +36,49 @@ header a.first, header a:hover {
 .drop-btn h2:hover {  
     color: #333; 
 }
-  
+  .dropdown, .dropdown2{
+	  z-index: 2;
+  }
+
+  .dropdown-content, .dropdown-content2{
+	padding: .2em .4em;
+	z-index: 4;
+	font-size: .7em;
+  }
+
+
+  nav hr{
+	  border: .6px solid rgba(255, 255, 255, 0.13);
+  }
   .dropdown-content  {
     display: none;
     position: absolute;
     top: 26px;
-    left: 0;
-    background-color: #fff;
+	left: 50px;
+    background-color: #000;
     width: 270px;
-    padding-left: 60px; 
    }
    .dropdown-content2 {
     display: none;
     position: absolute;
     top: 26px;
-    left: 0;
-    background-color: #fff;
+	left:130px;
+	background-color: #000;
     width: 210px;
-    padding-left: 120px;
    }
     .dropdown-content a {
       display: block;
       color: #999;
-      background: black; 
-      font-family: "Ropa Sans", sans-serif;
+      font-family: "Cantarell", sans-serif;
       text-transform: uppercase;
-      line-height: 20px;
-      border-top: 1px solid #dadada;
-      padding-left: 0px; 
+      padding: .2em .5em; 
     }
     .dropdown-content2 a {
         display: block;
-        color: #999;
-        background: black; 
-        font-family: "Ropa Sans", sans-serif;
+		color: #999;
+        font-family: "Cantarell", sans-serif;
         text-transform: uppercase;
-        line-height: 20px;
-        border-top: 1px solid #dadada;
-        padding-left: 0px; 
+        padding: .2em .5em;
       }
     .dropdown-content a:hover {
         color: #333; 
@@ -83,12 +87,10 @@ header a.first, header a:hover {
         color: #333; 
     }
   
-  .dropdown:hover .dropdown-content {
-    display: block; 
+  .dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2 {
+	display: block; 
+	
   }
-  .dropdown2:hover .dropdown-content2 {
-     display: block; 
-    }
 
 .header-top {
 	height: 80px;
@@ -98,43 +100,29 @@ header a.first, header a:hover {
 .menu-one_and_two {
 	width: 100%;
 }
-nav {
+
+.first-nav{
 	height: 30px; 
 	background-color: #000;
 	width: 100%;
+	padding-left: 
 }
 .nav-second {
 	display: flex;
     background-color: #fff;
-    justify-content: space-between;
-    font-size: 14px;
 }
 .second-nav-links {
 	font-size: 110%;
 	color: #999;
 	line-height: 50px;
-    margin-left: 20px;
+	margin-right: .7em;
    }
-a.second-nav-links:hover {
+a.second-nav-links:xhover {
 	color: #000;
 }
 
 /*....... Section: lastes Deals .............*/
-.latest {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 10px;
-}
 
-.deals-title {
-	color: #ff3300;
-    font-size: 200%;
-    letter-spacing: -.015em;
-    font-weight: bold;
-    font-family:Arial Narrow Bold;
-    margin-bottom: 30px;
-   
-}
 .dealPrices small {
     text-decoration: line-through; 
 }
