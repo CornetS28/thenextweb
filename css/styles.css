@@ -196,13 +196,24 @@ small {
 .footer-middle {
 	background-color: #111;
 	color: #999;
-	padding: 30px 10px;
+	padding: 1em 0;
+	align-items: center;
 }
+
+.social-icons i{
+	margin-right: 1em;
+	background-color: rgb(83, 83, 83);
+	color: #ffffff;
+	border-radius: 50%;
+	padding: 1em 1em;
+	font-size: .9em;
+}
+
 .footer-middle ul {
 	margin: 0;
 	padding: 10px 0;
 	list-style-type: none;
-	text-align: center;
+
 }
 .footer-middle li, .footer-middle li a {
 	display: inline-block;
@@ -287,29 +298,7 @@ footer {
 
 
 		@media screen and (max-width: 768px) {
-		  footer .social li {
-			margin: 0; } 
 		}
-	  footer .social h2 {
-		font-size: inherit; 
-	}
-	  footer .social .social-icons a {
-		display: inline-block;
-		background-color: #333;
-		border: 2px solid #333;
-		border-radius: 50%;
-		width: 40px;
-		height: 40px; 
-	  }
-
-		footer .social .social-icons a:hover {
-		  background: none; 
-		}
-
-	  footer .social .social-icons i {
-		margin-bottom: -20px; 
-		
-	   }
 	
 	  @media screen and (max-width: 768px) {
 		  footer  span {
