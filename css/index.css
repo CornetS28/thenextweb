@@ -182,7 +182,7 @@ i{
     color: rgb(209, 24, 24);
     margin-bottom: 1em;
     font-size: 2em;
-    font-weight: 700px;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -423,7 +423,6 @@ i{
 
 .ad-image a:hover{
     text-decoration: underline;
-    text-decoration-style: .1px solid;
     text-decoration-color: rgba(245, 245, 245, 0.274);
 }
 
@@ -497,6 +496,14 @@ i{
     content: '\2022';
     color: #f42;
     padding-right: 1em;
+}
+
+footer{
+    font-family: 'Cantarell', sans-serif;
+}
+
+.stack-logo{
+    margin-left: .5em;
 }
 
 @media only screen and (max-width: 1300px){
@@ -649,7 +656,13 @@ i{
 
 }
 
+.footer-bottom{
+    flex-direction: column;
+}
 
+.social-icons{
+    font-size: .8em;
+}
 }
 
 /* For Samuel's section*/
