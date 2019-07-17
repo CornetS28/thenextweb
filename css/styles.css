@@ -37,12 +37,12 @@ header a.first, header a:hover {
     color: #333; 
 }
   .dropdown, .dropdown2{
-	  z-index: 2;
+	  z-index: 11;
   }
 
   .dropdown-content, .dropdown-content2{
 	padding: .2em .4em;
-	z-index: 4;
+	z-index: 9;
 	font-size: .7em;
   }
 
@@ -87,9 +87,12 @@ header a.first, header a:hover {
         color: #333; 
     }
   
-  .dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2 {
+  .dropdown:hover .dropdown-content {
 	display: block; 
-	
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+	display: block; 
   }
 
 .header-top {

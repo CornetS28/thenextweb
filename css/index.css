@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    box-sizing: border-box;
     padding: 0;
 }
 
@@ -67,8 +68,11 @@ main{
     position: relative;
 }
 
+.hero-left:hover .left-overlay{
+    background-color: rgba(78, 78, 78, 0.342);
+}
+
 .hero-left-logo{
-    z-index: 9;
     width: 400px;
     height: 400px;
     position: relative;
@@ -123,7 +127,7 @@ main{
 
 .left-overlay{
     background: linear-gradient(170deg,rgba(252, 57, 90, 0.5),rgba(252,57,90, .6), rgba(43,43,43,.5), black) ;
-
+    transition: .8s;
 }
 
 .article-title--controls{
@@ -466,6 +470,9 @@ i{
     list-style-type: none;
 }
 
+.ads-list a{
+    display: inline;
+}
 .ads-list li{
     border-bottom: 1px solid rgb(228, 228, 228);
     margin-bottom: 1em;
@@ -495,7 +502,7 @@ i{
 .ads-list li::before{
     content: '\2022';
     color: #f42;
-    padding-right: 1em;
+    padding-right: .5em;
 }
 
 footer{
@@ -643,6 +650,10 @@ footer{
 }
 .red-links{
     font-weight: 200;
+}
+
+.latest-funding-rounds--links a :hover{
+    color: #000;
 }
 
 .red-links-with--border{
