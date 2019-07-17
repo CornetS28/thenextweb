@@ -10,7 +10,7 @@ a{
 }
 
 h1{
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     z-index: 2;
 }
@@ -53,7 +53,7 @@ main{
     color: white;
 }
 
-[hero-left]{
+.hero-left{
     width: 80%;
     height: 100%;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-796x417.png');
@@ -62,7 +62,7 @@ main{
     position: relative;
 }
 
-[article-date]{
+.article-date{
     position: absolute;
     top: 1em;
     right: 1em;
@@ -70,7 +70,7 @@ main{
     font-family: 'Cantarell', sans-serif;
 }
 
-[hero-right]{
+.hero-right{
     width: 40%;
     height: 100%;   
     padding: 0 0 0 .5em;
@@ -84,7 +84,7 @@ main{
     right: 0;
 }
 
-[hero-right--first]{
+.hero-right--first{
     width: 100%;
     height: 50%;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Elon-796x419.jpg');
@@ -93,7 +93,7 @@ main{
     position: relative;
 }
 
-[hero-right--second]{
+.hero-right--second{
     width: 100%;
     height: 50%;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Neuralink-Link-computer-hed-796x419.jpg');
@@ -128,7 +128,7 @@ main{
     font-size: 2.7em;
 }
 
-[hero-right] h1{
+.hero-right h1{
     font-size: 1.5em;
 }
 
@@ -148,11 +148,11 @@ i{
     list-style-type: none;
 }
 
-[latest-news-section]{
+.latest-news-section{
     margin-bottom: 25em;
 }
 
-[latest-news-section] a{
+.latest-news-section a{
     color: black;
     text-decoration: none;
 }
@@ -167,12 +167,15 @@ i{
 .section-header{
     color: rgb(209, 24, 24);
     margin-bottom: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700px;
     font-family: 'Roboto', sans-serif;
 }
 
-[latest-news-holder]{
+.section-header:hover{
+    color: black;
+}
+.latest-news-holder{
     width: 100%;
 }
 
@@ -189,55 +192,61 @@ i{
     margin: .6em 0 ;
 }
 
+.latest-news-container h3:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 67, 34, 0.26); 
+    color: #f42;
+}
+
 .latest-news-images{
     display: block;
     width: 100%;
     height: 152px;
 }
 
-[latest-news--first]{
+.latest-news--first{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/different-colored-lollipops-on-black-404x270.jpg');
 }
 
-[latest-news--second]{
+.latest-news--second{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/Japan-hacks-first-6-months-bitcoin-cryptocurrency-coincheck-scam-479x270.jpg');
 }
 
-[latest-news--third]{
+.latest-news--third{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/bulgaria-fraudsters-cryptocurrency-illegal-blockchain-theft-scam-hack-ponzi-480x270.jpg');
 }
 
-[latest-news--fourth]{
+.latest-news--fourth{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20230_primary_image_wide-540x270.jpg');
 }
 
-[latest-news--fifth]{
+.latest-news--fifth{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/pic-516x270.png');
 }
 
-[latest-news--sixth]{
+.latest-news--sixth{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Saddo-Android-hed-513x270.jpg');
 }
 
-[latest-news--seventh]{
+.latest-news--seventh{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/MeToo-2-516x270.png');
 }
 
-[latest-news--last]{
+.latest-news--last{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-2-1-516x270.png');
@@ -263,7 +272,7 @@ i{
     float: right;
 }
 
-[funding-cards--holder]{
+.funding-cards--holder{
     clear: both;
 }
 .latest-funding-container{
@@ -311,6 +320,10 @@ i{
     align-items: center;
     margin: 1em 0;
 }
+
+.funding-sub-category p:hover{
+    color: rgb(0, 0, 0);
+}
 .latest-funding-container hr{
     border: .7px solid rgb(255, 192, 192);
 }
@@ -336,7 +349,7 @@ i{
     color: rgb(83, 83, 83);
 }
 
-[ads-section]{
+.ads-section{
     clear: both;
     align-items: flex-start;
     flex-flow: row wrap;
@@ -376,12 +389,16 @@ i{
 .ad-image h2{
     font-size: 1.3em;
 }
-.ad-image h5, h2, ul{
+.ad-image a,h5, h2, ul{
     z-index: 2;
 }
 
 .ad-image ul :first-child{
     list-style-type: none;
+}
+
+.ad-image ul :first-child:hover{
+   color: rgb(255, 255, 255);
 }
 
 .ad-image ul li{
@@ -390,34 +407,44 @@ i{
     margin-right: 25px;
 }
 
-[ad-image-one]{
+.ad-image a:hover{
+    text-decoration: underline;
+    text-decoration-style: .1px solid;
+    text-decoration-color: rgba(245, 245, 245, 0.274);
+}
+
+.ads-list li:hover{
+    color: rgb(19, 19, 19);
+}
+
+.ad-image-one{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/FaceApp-hed-796x419.jpg')
 }
-[ad-image-two]{
+.ad-image-two{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/header-image-chromecast-CHEAP-516x270.png')
 }
 
-[ad-image-three]{
+.ad-image-three{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Elon-513x270.jpg')
 }
 
-[ad-image-four]{
+.ad-image-four{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-796x417.png')
 }
 
-[ad-image-five]{
+.ad-image-five{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/different-colored-lollipops-on-black-404x270.jpg')
 }
 
-[ad-image-six]{
+.ad-image-six{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/alan-turing-alan-turing-bill-binary-code-hidden-bank-of-england-478x270.jpg')
 }
 
-[ad-image-seven]{
+.ad-image-seven{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Uplay-Plus-516x270.jpg')
 }
 
-[ad-image-eight]{
+.ad-image-eight{
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Apex-Wraith-516x270.jpg')
 }
 
@@ -502,29 +529,29 @@ i{
         flex-flow: column nowrap;
     }
 
-    [hero-right]{
+    .hero-right{
         width: 40%;
         height: 100%;   
         padding: 0 .1em;
     }
-    [hero-left], [hero-right]{
+    .hero-left, .hero-right{
         width: 100%;
         
     }
 
-    [hero-right]{
+    .hero-right{
         margin-top: .5em;
     }
 
-    [hero-left]{
+    .hero-left{
         height: 50%;
     }
 
-    [hero-left] h1{
+    .hero-left h1{
         font-size: 1.3em;
     }
 
-    [article-date]{
+    .article-date{
         display: none;
     }
 
@@ -574,7 +601,7 @@ i{
     float: none;
 }
 
-[latest-funding-rounds--links]{
+.latest-funding-rounds--links{
     margin-bottom: 1em;
 }
 .red-links{
