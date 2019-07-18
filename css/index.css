@@ -732,7 +732,7 @@ header{
 	color: rgb(139, 139, 139);
 }
 
-.fa-bars{
+i.fa-bars{
 	display: none;
 	color: #f42;
 }
@@ -1040,7 +1040,7 @@ footer {
 		  footer  span {
 			display: block; } 
 
-			.fa-bars{
+			i.fa-bars{
 				display: inline;
 			}
 			.first-nav{
