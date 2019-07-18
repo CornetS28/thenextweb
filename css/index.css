@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.hidden{
+    display: none;
+}
+
 nav{
     font-family: 'Cantarell', sans-serif;
     font-size: .8em;    
